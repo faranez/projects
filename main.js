@@ -1,40 +1,18 @@
-// faranezz
-
-let a;
-let b;
-let operator;
-
-
-
-if (operator == 'plus' || operator == 'minus' || operator == 'multi' || operator == 'devide') {
-     operator = true;
-}
-else {
-    operator = false;
-}
-
-const isValid = (typeof a == 'number' && typeof b == 'number' && operator == true);
-
-
-
 function calc (operator,a,b) {
-    if (isValid == true || operator == 'plus') {
+    if (operator == 'sum' && typeof a == 'number' && typeof b == 'number') {
         console.log(a + b);
-
     }
-    else if (isValid == true || operator == 'minus') {
+    else if (operator == 'minus' && typeof a == 'number' && typeof b == 'number') {
         console.log(a - b);
-
     }
-    else if (isValid == true || operator == 'multi') {
+    else if (operator == 'multi' && typeof a == 'number' && typeof b == 'number') {
         console.log(a ** b);
     }
-    else if (isValid == true || operator == 'devide') {
-        console.log(a / b)
+    else if (operator == 'devide' && typeof a == 'number' && typeof b == 'number') {
+        console.log(a / b);
     }
     else {
         console.log('Error')
     }
 };
-
-calc ('multi',2,2);
+calc('devide',2,2);
