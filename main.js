@@ -1,3 +1,5 @@
+// faranezz
+
 function calc (operator,a,b) {
     if (operator == 'sum' && typeof a == 'number' && typeof b == 'number') {
         console.log(a + b);
