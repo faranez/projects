@@ -1,21 +1,20 @@
 // faranezz
 
 function calc (operator,a,b) {
-    if (typeof a == 'number' && typeof b == 'number')  {
-         switch (operator) {
-              case 'sum': console.log(a + b);
-              break;
-              case 'minus': console.log(a - b);
-              break;
-              case 'multi': console.log(a * b); 
-              break;
-              case 'devide': console.log(a / b); 
-              break;
-              default: console.log('unknow operator');
-        };
+    if (operator == 'sum' && typeof a == 'number' && typeof b == 'number') {
+        return(a + b);
     }
-      else {
-          console.log('Error');
-      };
-    };
-calc(2,2);
+    else if (operator == 'minus' && typeof a == 'number' && typeof b == 'number') {
+        return(a - b);
+    }
+    else if (operator == 'multi' && typeof a == 'number' && typeof b == 'number') {
+        return(a * b);
+    }
+    else if (operator == 'devide' && typeof a == 'number' && typeof b == 'number') {
+        return(a / b);
+    }
+    else {
+        return('Error')
+    }
+};
+console.log(calc('devide',2,2));
