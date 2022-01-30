@@ -1,3 +1,5 @@
+//faranezz
+
 function calc (opetator,a,b) {
         if (typeof a == 'number' && typeof b == 'number') {
             switch (opetator) {
