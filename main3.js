@@ -1,3 +1,4 @@
+//faranezz
 function calc (operator,a,b) {
     let conteiner = {
         sum: a + b,
