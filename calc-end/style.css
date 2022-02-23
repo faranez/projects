@@ -1,0 +1,112 @@
+body {
+
+
+}
+.btn {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    line-height: 72px;
+    border: none;
+
+    width: 69px;
+    height: 72px;
+
+
+    color: white;
+    display: inline-block;
+    border-radius: 24px;
+
+}
+.conteiner {
+    width: 364px;
+    height: 582px;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 21px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: 0 auto;
+    margin-top: 100px;
+
+
+
+}
+.screen {
+    width: 324px;
+    height: 96px;
+    margin-bottom: 16px;
+
+    color: white;
+    font-weight: 300;
+    font-size: 96px;
+    text-align: right;
+
+
+}
+.btn--C {
+    width: 153px;
+    height: 72px;
+    background: #4E505F;
+
+}
+
+.btn--arrow {
+
+    background: #2E2F38;
+
+    margin-left: 12px;
+
+
+
+}
+.btn--divide {
+    width: 69.67px;
+    height: 72px;
+    margin-left: 12px;
+    background-color: #4B5EFC;
+
+}
+.btn--start {
+    background: #2E2F38;
+    margin-top: 16px;
+    margin-right: 16px;
+
+}
+.btn--middle {
+    background: #2E2F38;
+    margin-top: 16px;
+
+}
+.btn--end {
+    background: #2E2F38;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.btn--el {
+    background: #2E2F38;
+    margin-top: 16px;
+    margin-left: 10px;
+    background: #4B5EFC;
+
+}
+.btn--null {
+    width: 238px;
+    height: 72px;
+    background-color: #2E2F38;
+    border-radius: 24px;
+
+
+}
+.btn--start1 {
+    background: #2E2F38;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+.button {
+
+}
